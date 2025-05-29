@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './profile-photo.component.css',
 })
 export class ProfilePhotoComponent {
-  imagePath = 'assets/diana.jpg';
+  name = 'profile-photo';
 }
