@@ -1,7 +1,11 @@
 a{
   color: purple;
+  margin: 0 1rem 0 1rem;
+  font-size: 1.2rem;
 }
 
 ul{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
