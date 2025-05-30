@@ -1,11 +1,22 @@
-a{
-  color: purple;
-  margin: 0 1rem 0 1rem;
-  font-size: 1.2rem;
+.navbar-brand{
+  display: none;
+  font-family: 'Charm', cursive;
 }
 
-ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+a{
+  color: #b203f9;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+@media (max-width: 984px) {
+  .navbar-brand{
+    display: flex;
+    font-size: 1.5rem;
+  }
+
+  a{
+    margin: 0;
+    font-size: 1rem;
+  }
 }

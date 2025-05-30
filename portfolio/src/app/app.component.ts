@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { ContainerComponent } from './components/container/container.component';
-import { ProfilePhotoComponent } from './components/profile-photo/profile-photo.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 
 @Component({
@@ -11,8 +10,7 @@ import { PrincipalComponent } from './components/principal/principal.component';
     RouterOutlet,
     ContainerComponent,
     HeaderComponent,
-    PrincipalComponent,
-    ProfilePhotoComponent
+    PrincipalComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
