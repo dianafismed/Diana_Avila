@@ -1,0 +1,12 @@
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: #9b0eca;
+  margin: 1rem;
+  font-size: 1.2rem;
+}

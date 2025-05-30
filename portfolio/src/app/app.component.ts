@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { ContainerComponent } from './components/container/container.component';
 import { PrincipalComponent } from './components/principal/principal.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,8 @@ import { PrincipalComponent } from './components/principal/principal.component';
     RouterOutlet,
     ContainerComponent,
     HeaderComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    FooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
