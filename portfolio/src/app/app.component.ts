@@ -12,8 +12,6 @@ import { GradesComponent } from './components/grades/grades.component';
     RouterOutlet,
     ContainerComponent,
     HeaderComponent,
-    PrincipalComponent,
-    GradesComponent,
     FooterComponent
   ],
   templateUrl: './app.component.html',
