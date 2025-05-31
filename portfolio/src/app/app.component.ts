@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ContainerComponent } from './components/container/container.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { GradesComponent } from './components/grades/grades.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ContainerComponent,
     HeaderComponent,
     PrincipalComponent,
+    GradesComponent,
     FooterComponent
   ],
   templateUrl: './app.component.html',
