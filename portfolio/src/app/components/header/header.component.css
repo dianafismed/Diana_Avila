@@ -1,3 +1,7 @@
+header{
+  border-bottom: 1px solid #b203f9;
+}
+
 .navbar-brand{
   display: none;
   font-family: 'Charm', cursive;
