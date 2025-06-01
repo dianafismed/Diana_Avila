@@ -13,6 +13,10 @@ a{
   margin: 1rem;
 }
 
+a:hover{
+  color: #f7edff;
+}
+
 @media (max-width: 984px) {
   .navbar-brand{
     display: flex;
